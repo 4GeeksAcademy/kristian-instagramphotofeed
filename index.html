@@ -11,7 +11,7 @@
 <body>
     <nav class="navbar bg-body-tertiary">
       <div class="container-fluid">
-          <a class="navbar-brand"><i class="fa-brands fa-instagram"></i>Instagram</a>
+          <a class="navbar-brand"><i class="fa-brands fa-instagram iconfor_insta"></i>Instagram</a>
         <div>
           <button type="button" class="btn btn-success" data-bs-toggle="modal" data-bs-target="#exampleModal" data-bs-whatever="@getbootstrap">Create a new post</button>
           <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
@@ -27,11 +27,11 @@
                       <label for="message-text" class="col-form-label"><strong>Caption:</strong></label>
                       <textarea class="form-control" id="message-text" placeholder="Add the caption of your post here"></textarea>
                     </div>
-                    <button>
-                      <i class="fa-solid fa-camera"></i>
+                    <button class="my_buttons">
+                      <i class="fa-solid fa-camera black_icons"></i>
                     </button>
-                    <button>
-                      <i class="fa-solid fa-location-dot"></i>
+                    <button class="my_buttons">
+                      <i class="fa-solid fa-location-dot black_icons"></i>
                     </button>
                   </form>
                 </div>
@@ -44,10 +44,10 @@
           </div>
 
           <div class="btn-group">
-            <button type="button" class="btn btn-secondary dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+            <button type="button" class="btn btn-secondary dropdown-toggle" data-bs-toggle="dropdown" data-bs-display="static" aria-expanded="false">
                 <i class="fa-solid fa-gear"></i>
             </button>
-            <ul class="dropdown-menu">
+            <ul class="dropdown-menu dropdown-menu-lg-end">
               <li><a class="dropdown-item" href="#">Profile</a></li>
               <li><a class="dropdown-item" href="#">Accessibility</a></li>
               <li><a class="dropdown-item" href="#">Privacy and Data</a></li>
@@ -59,17 +59,15 @@
       </div>  
     </nav>
 
-    <div class="d-flex justify-content-center">
-      <div class="card w-50 p-3" style="width: 18rem;">
+    <div class="d-flex justify-content-center new_container_fixes">
+      <div class="card w-50 p-3 new_sizing_by_me" style="width: 18rem;">
         <div class="header_post_by_me">
-          <p><strong>Hola Mundo</strong></p><p class="d-flex justify-content-end">01/10</p>
+          <p class="header_text"><strong>Teaching how to play!</strong></p><p class="d-flex justify-content-end post_number">01/10</p>
         </div>
-        <img src="https://images.hive.blog/p/PB8ro82ZpZP35bVGjGoE93K3E4U5KX8KtMBJ2rhwkYsKDDXBda7JH8WJDMYggbQfdCAyHELEhQEv5PpGgzQUAec1rXGujGV7U8kweJQbRafAtiK8?format=match&mode=fit&width=1200&height=630" class="img-fluid">
-        <div class="card-body">
-          <p class="card-text">
-            <p><strong>36,000 likes</strong></p>
-            <p>This is an example of a very good photo that you can post on Instagram.</p>
-          </p>
+        <img src="https://images.hive.blog/p/PB8ro82ZpZP35bVGjGoE93K3E4U5KX8KtMBJ2rhwkYsKDDXBda7JH8WJDMYggbQfdCAyHELEhQEv5PpGgzQUAec1rXGujGV7U8kweJQbRafAtiK8?format=match&mode=fit&width=1200&height=630" class="my_image_settings">
+        <div>
+            <p class="likes_text"><strong>36,000 likes</strong></p>
+            <p class="post_text">This is an example of a very good photo that you can post on Instagram.</p>
         </div>
       </div>
     </div>

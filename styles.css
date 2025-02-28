@@ -1,3 +1,41 @@
 .last-option{
     color: red;
 }
+.iconfor_insta{
+    margin-right: 4px;
+}
+.my_buttons{
+    color: lightgray;
+    border-color: gray;
+}
+.black_icons{
+    color: black;
+}
+.new_container_fixes{
+    margin-top: 10px;
+}
+.header_post_by_me{
+    display: flex;
+    justify-content: space-between;
+}
+.post_number{
+    color: gray;
+    padding-top: 4px;
+    padding-right: 4px;
+}
+.header_text{
+    font-size: larger;
+    padding-top: 4px;
+    padding-left: 4px;
+}
+.new_sizing_by_me{
+    padding: 0 !important;
+}
+.likes_text{
+    padding-top: 4px;
+    padding-left: 4px;
+}
+.post_text{
+    padding-top: 4px;
+    padding-left: 4px; 
+}
